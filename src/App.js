@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import ItemListContainer from "./components/ItemListContainer";
+import NavBar from "./components/NavBar";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import LandingPage from "./components/LandingPage";
+import { CartProvider } from "./components/CartContext";
+import Footer from "./components/Footer";
+import CartView from "./components/CartView/CartView";
+import { ChakraProvider } from '@chakra-ui/react'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartProvider>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/productos" element={<ItemListContainer />} />
+          <Route path="/productos/:productoId" element={<ItemDetailContainer />} />
+          <Route path="/category/:id" element={<ItemListContainer />} />
+          <Route path="/cart" element={<CartView />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </CartProvider>
   );
 }
 

@@ -1,0 +1,13 @@
+.loading {
+    padding-top: 200px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .todo-container {
+    margin: 0px;
+    background-color: #e3e7ed;
+    height: 100vh;
+    min-width: 100vw;
+  }

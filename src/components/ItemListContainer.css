@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Prata", serif ;
+  }
+  
+  .container {
+    margin: 0px;
+    padding: 40px;
+    background-color: white;
+    height: 2000px;
+    min-width: 100vw;
+  }
+  
+  .container h1 {
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 40px;
+    font-family: "Prata", serif ;
+    color: #586f61;
+  }
+  
+  .loading{
+    color: #586f61;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Prata&display=swap");

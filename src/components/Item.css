@@ -1,0 +1,59 @@
+.card-container {
+    margin-top: 40px;
+    background-color: #5E6D4B;
+    border-radius: 5px;
+  
+  }
+  
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+  }
+  .item-container h3 {
+    color: #e3e7ed;
+  }
+  
+  .item-container button {
+   
+    border: 1px solid white;
+    color: white;
+    border-radius: 1px;
+    padding: 5px 20px;
+  }
+  
+  .card-container img {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+  }
+  
+  .ItemCount {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  
+  .link{
+    border-radius: 5px;
+    background-color: #586f61;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+  
+  .link:hover{
+    background-color: #586f61;
+    border: 1px solid #586f61;
+    outline: 0;
+    
+  } 
+
+  .textPrecio{
+    color: #586f61;
+  }
+

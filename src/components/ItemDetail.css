@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Prata&display=swap");
+
+.detail-container {
+    height: 100vh;
+    background-color: white;
+    padding: 50px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #586f61;
+    border-radius: 15px;
+    margin: 0px 60px 0 60px;
+    height: 600px;
+  }
+
+  .title{
+    font-family: "Comfortaa", cursive;
+    color: #586f61
+  }
+
+  .descrip{
+    margin-top: 5px;
+    font-family: "Prata", serif;
+    color: #586f61
+  }
+
+  .precio{
+    margin-top: 20px;
+    font-family: "Prata", serif;
+    font-size: 25px;
+    color: #586f61
+    
+  }
+
+  
+  .addCarrito {
+    border-radius: 5px;
+    background-color: #586f61;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+  
+
+  

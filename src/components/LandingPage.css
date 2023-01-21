@@ -1,0 +1,37 @@
+.container-landing {
+    background-image: "https://res.cloudinary.com/dvg9bxeas/image/upload/v1671477811/REACT%20-%20Limonero/producto-9_yftzip.jpg";
+    margin: 0px;
+    padding-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-rows: max-content;
+    align-content: center;
+    align-items: center;
+    gap: 4em;
+    height: 100vh;
+    
+  }
+  
+  .container-landing h1 {
+    font-size: 40px;
+    font-family: "Prata", serif;
+    color: #586f61;
+  }
+  
+  .Link {
+    text-decoration: none;
+    color: white;
+    background-color: #586f61;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Link:hover {
+    border: 1px solid #586f61;
+    background-color: white;
+    transition: background-color 1s ease;
+    outline: 0;
+    color: #586f61;
+  }
